@@ -13,8 +13,8 @@ venv/
 *.pid
 *.lock
 
-# Database
-*.db
+# Database (but include medical_coding.db for reproducibility)
+# *.db
 
 # Data files (too large for git)
 *.jsonl
