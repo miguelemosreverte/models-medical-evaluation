@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+
+# Python
+*.pyc
+__pycache__/
+.env
+.venv/
+venv/
+
+# Logs
+*.log
+*.pid
+*.lock
+
+# Database
+*.db
+
+# Data files (too large for git)
+*.jsonl
+*.backup
+icd10_full_catalog.csv
+
+# Directories
+raw_data/
+data/
+logs/
+reports/
+old_files/
+.claude/

@@ -1,0 +1,115 @@
+code,description,category,country
+A00,Cholera,Infectious diseases,international
+A01,Typhoid and paratyphoid fevers,Infectious diseases,international
+A09,"Infectious gastroenteritis and colitis, unspecified",Infectious diseases,international
+A41.9,"Sepsis, unspecified organism",Infectious diseases,international
+C78.00,Secondary malignant neoplasm of unspecified lung,Neoplasms,international
+C80.1,"Malignant neoplasm, unspecified",Neoplasms,international
+D50.9,"Iron deficiency anemia, unspecified",Blood diseases,international
+D64.9,"Anemia, unspecified",Blood diseases,international
+E03.9,"Hypothyroidism, unspecified",Endocrine,international
+E10.9,Type 1 diabetes mellitus without complications,Endocrine,international
+E11.9,Type 2 diabetes mellitus without complications,Endocrine,international
+E66.9,"Obesity, unspecified",Endocrine,international
+E78.5,"Hyperlipidemia, unspecified",Endocrine,international
+F32.9,"Major depressive disorder, single episode, unspecified",Mental health,international
+F41.1,Generalized anxiety disorder,Mental health,international
+F41.9,"Anxiety disorder, unspecified",Mental health,international
+G43.909,"Migraine, unspecified, not intractable, without status migrainosus",Nervous system,international
+G47.00,"Insomnia, unspecified",Nervous system,international
+H10.9,Unspecified conjunctivitis,Eye diseases,international
+H52.4,Presbyopia,Eye diseases,international
+H66.90,"Otitis media, unspecified, unspecified ear",Ear diseases,international
+I10,Essential (primary) hypertension,Circulatory,international
+I20.9,"Angina pectoris, unspecified",Circulatory,international
+I21.9,"Acute myocardial infarction, unspecified",Circulatory,international
+I25.10,Atherosclerotic heart disease of native coronary artery without angina pectoris,Circulatory,international
+I48.91,Unspecified atrial fibrillation,Circulatory,international
+I50.9,"Heart failure, unspecified",Circulatory,international
+J00,Acute nasopharyngitis [common cold],Respiratory,international
+J01.90,"Acute sinusitis, unspecified",Respiratory,international
+J02.9,"Acute pharyngitis, unspecified",Respiratory,international
+J03.90,"Acute tonsillitis, unspecified",Respiratory,international
+J06.9,"Acute upper respiratory infection, unspecified",Respiratory,international
+J18.9,"Pneumonia, unspecified organism",Respiratory,international
+J20.9,"Acute bronchitis, unspecified",Respiratory,international
+J44.0,Chronic obstructive pulmonary disease with acute lower respiratory infection,Respiratory,international
+J44.1,Chronic obstructive pulmonary disease with acute exacerbation,Respiratory,international
+J45.909,"Unspecified asthma, uncomplicated",Respiratory,international
+K21.0,Gastro-esophageal reflux disease with esophagitis,Digestive,international
+K21.9,Gastro-esophageal reflux disease without esophagitis,Digestive,international
+K29.70,"Gastritis, unspecified, without bleeding",Digestive,international
+K52.9,"Noninfective gastroenteritis and colitis, unspecified",Digestive,international
+K58.0,Irritable bowel syndrome with diarrhea,Digestive,international
+K58.9,Irritable bowel syndrome without diarrhea,Digestive,international
+K64.9,Unspecified hemorrhoids,Digestive,international
+K92.2,"Gastrointestinal hemorrhage, unspecified",Digestive,international
+L20.9,"Atopic dermatitis, unspecified",Skin,international
+L30.9,"Dermatitis, unspecified",Skin,international
+L50.9,"Urticaria, unspecified",Skin,international
+L70.0,Acne vulgaris,Skin,international
+M15.9,"Polyosteoarthritis, unspecified",Musculoskeletal,international
+M17.9,"Osteoarthritis of knee, unspecified",Musculoskeletal,international
+M19.90,"Unspecified osteoarthritis, unspecified site",Musculoskeletal,international
+M25.561,Pain in right knee,Musculoskeletal,international
+M25.562,Pain in left knee,Musculoskeletal,international
+M54.2,Cervicalgia,Musculoskeletal,international
+M54.50,"Low back pain, unspecified",Musculoskeletal,international
+M62.81,Muscle weakness (generalized),Musculoskeletal,international
+M79.3,Myalgia,Musculoskeletal,international
+M81.0,Age-related osteoporosis without current pathological fracture,Musculoskeletal,international
+N18.3,"Chronic kidney disease, stage 3 (moderate)",Genitourinary,international
+N18.9,"Chronic kidney disease, unspecified",Genitourinary,international
+N39.0,"Urinary tract infection, site not specified",Genitourinary,international
+N40.0,Benign prostatic hyperplasia without lower urinary tract symptoms,Genitourinary,international
+R00.0,"Tachycardia, unspecified",Symptoms,international
+R00.1,"Bradycardia, unspecified",Symptoms,international
+R03.0,"Elevated blood-pressure reading, without diagnosis of hypertension",Symptoms,international
+R05,Cough,Symptoms,international
+R05.1,Acute cough,Symptoms,international
+R05.2,Subacute cough,Symptoms,international
+R05.3,Chronic cough,Symptoms,international
+R05.9,"Cough, unspecified",Symptoms,international
+R06.00,"Dyspnea, unspecified",Symptoms,international
+R06.02,Shortness of breath,Symptoms,international
+R06.03,Acute respiratory distress,Symptoms,international
+R06.09,Other forms of dyspnea,Symptoms,international
+R07.9,"Chest pain, unspecified",Symptoms,international
+R10.0,Acute abdomen,Symptoms,international
+R10.9,Unspecified abdominal pain,Symptoms,international
+R10.84,Generalized abdominal pain,Symptoms,international
+R11.0,Nausea,Symptoms,international
+R11.1,Vomiting,Symptoms,international
+R11.2,"Nausea with vomiting, unspecified",Symptoms,international
+R12,Heartburn,Symptoms,international
+R19.7,"Diarrhea, unspecified",Symptoms,international
+R21,Rash and other nonspecific skin eruption,Symptoms,international
+R25.1,"Tremor, unspecified",Symptoms,international
+R26.81,Unsteadiness on feet,Symptoms,international
+R30.0,Dysuria,Symptoms,international
+R35.0,Frequency of micturition,Symptoms,international
+R42,Dizziness and giddiness,Symptoms,international
+R50.9,"Fever, unspecified",Symptoms,international
+R51.9,"Headache, unspecified",Symptoms,international
+R53.1,Weakness,Symptoms,international
+R53.81,Other malaise,Symptoms,international
+R53.83,Other fatigue,Symptoms,international
+R60.0,Localized edema,Symptoms,international
+R60.9,"Edema, unspecified",Symptoms,international
+R63.4,Abnormal weight loss,Symptoms,international
+S39.012A,"Strain of muscle, fascia and tendon of lower back, initial encounter",Injury,international
+S72.001A,"Fracture of unspecified part of neck of right femur, initial encounter",Injury,international
+U07.1,COVID-19,Special codes,international
+V89.2,"Person injured in unspecified motor-vehicle accident, traffic",External causes,international
+Z00.00,Encounter for general adult medical examination without abnormal findings,Health factors,international
+Z00.01,Encounter for general adult medical examination with abnormal findings,Health factors,international
+Z01.419,Encounter for gynecological examination without abnormal findings,Health factors,international
+Z12.11,Encounter for screening for malignant neoplasm of colon,Health factors,international
+Z12.31,Encounter for screening mammogram for malignant neoplasm of breast,Health factors,international
+Z13.1,Encounter for screening for diabetes mellitus,Health factors,international
+Z23,Encounter for immunization,Health factors,international
+Z79.01,Long term (current) use of anticoagulants,Health factors,international
+Z79.4,Long term (current) use of insulin,Health factors,international
+Z79.899,Other long term (current) drug therapy,Health factors,international
+Z86.010,Personal history of colonic polyps,Health factors,international
+Z87.891,Personal history of nicotine dependence,Health factors,international
