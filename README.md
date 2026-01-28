@@ -21,13 +21,50 @@ open book_report.html
 
 The generated report will be identical to the live version (except for timestamps and minor row ordering differences due to SQL query ordering).
 
-## Running New Experiments
+## Running New Experiments (Reproduce Data from Scratch)
 
-To generate new data from scratch (requires API keys for Claude/OpenAI):
+To regenerate the experimental data from scratch, you'll need CLI access to both AI models.
+
+### Prerequisites
+
+1. **Claude CLI** - Anthropic's Claude Code CLI
+   ```bash
+   # Install Claude Code CLI
+   npm install -g @anthropic-ai/claude-code
+
+   # Authenticate (requires Anthropic API key)
+   claude auth
+   ```
+
+2. **Codex CLI** - OpenAI's CLI tool
+   ```bash
+   # Install OpenAI CLI
+   pip install openai
+
+   # Set API key
+   export OPENAI_API_KEY="your-api-key"
+   ```
+
+3. **Python dependencies**
+   ```bash
+   pip install flask requests anthropic
+   ```
+
+### Generate Fresh Data
 
 ```bash
+# Remove existing data to start fresh
+rm medical_coding.db
+rm medical_coding_dataset.*.jsonl
+
+# Run data generation (this will take several hours)
 python3 dataset_generation.py
 ```
+
+The generation process:
+1. **Chapter 2**: Generates 11 description variants per ICD-10 code using both models
+2. **Chapter 3**: Tests reverse predictions (description → code)
+3. **Chapter 3.1**: Runs RAG-enhanced predictions with different corpus modes
 
 ### Monitor Progress
 
@@ -38,6 +75,10 @@ curl http://localhost:5001/api/progress/markdown
 ```
 
 Or open: http://localhost:5001
+
+### Cost Considerations
+
+Running the full experiment involves thousands of API calls to both Claude and OpenAI. Estimated costs depend on current API pricing. The included dataset represents the results of these experiments so you can analyze the results without incurring API costs.
 
 ## 📁 Project Structure
 
