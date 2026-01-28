@@ -16,8 +16,8 @@ venv/
 # Database (but include medical_coding.db for reproducibility)
 # *.db
 
-# Data files (too large for git)
-*.jsonl
+# Data files (include JSONL for reproducibility)
+# *.jsonl
 *.backup
 icd10_full_catalog.csv
 

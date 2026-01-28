@@ -1,0 +1,100 @@
+{"text": "Cholera", "golden_codes": ["A00"], "codes": []}
+{"text": "Cholera due to Vibrio cholerae 01, biovar cholerae", "golden_codes": ["A00.0"], "codes": []}
+{"text": "Cholera due to Vibrio cholerae 01, biovar eltor", "golden_codes": ["A00.1"], "codes": []}
+{"text": "Cholera, unspecified", "golden_codes": ["A00.9"], "codes": []}
+{"text": "Typhoid and paratyphoid fevers", "golden_codes": ["A01"], "codes": []}
+{"text": "Typhoid fever", "golden_codes": ["A01.0"], "codes": []}
+{"text": "Typhoid fever, unspecified", "golden_codes": ["A01.00"], "codes": []}
+{"text": "Typhoid meningitis", "golden_codes": ["A01.01"], "codes": []}
+{"text": "Typhoid fever with heart involvement", "golden_codes": ["A01.02"], "codes": []}
+{"text": "Typhoid pneumonia", "golden_codes": ["A01.03"], "codes": []}
+{"text": "Typhoid arthritis", "golden_codes": ["A01.04"], "codes": []}
+{"text": "Typhoid osteomyelitis", "golden_codes": ["A01.05"], "codes": []}
+{"text": "Typhoid fever with other complications", "golden_codes": ["A01.09"], "codes": []}
+{"text": "Paratyphoid fever A", "golden_codes": ["A01.1"], "codes": []}
+{"text": "Paratyphoid fever B", "golden_codes": ["A01.2"], "codes": []}
+{"text": "Paratyphoid fever C", "golden_codes": ["A01.3"], "codes": []}
+{"text": "Paratyphoid fever, unspecified", "golden_codes": ["A01.4"], "codes": []}
+{"text": "Other salmonella infections", "golden_codes": ["A02"], "codes": []}
+{"text": "Salmonella enteritis", "golden_codes": ["A02.0"], "codes": []}
+{"text": "Salmonella sepsis", "golden_codes": ["A02.1"], "codes": []}
+{"text": "Localized salmonella infections", "golden_codes": ["A02.2"], "codes": []}
+{"text": "Localized salmonella infection, unspecified", "golden_codes": ["A02.20"], "codes": []}
+{"text": "Salmonella meningitis", "golden_codes": ["A02.21"], "codes": []}
+{"text": "Salmonella pneumonia", "golden_codes": ["A02.22"], "codes": []}
+{"text": "Salmonella arthritis", "golden_codes": ["A02.23"], "codes": []}
+{"text": "Salmonella osteomyelitis", "golden_codes": ["A02.24"], "codes": []}
+{"text": "Salmonella pyelonephritis", "golden_codes": ["A02.25"], "codes": []}
+{"text": "Salmonella with other localized infection", "golden_codes": ["A02.29"], "codes": []}
+{"text": "Other specified salmonella infections", "golden_codes": ["A02.8"], "codes": []}
+{"text": "Salmonella infection, unspecified", "golden_codes": ["A02.9"], "codes": []}
+{"text": "Shigellosis", "golden_codes": ["A03"], "codes": []}
+{"text": "Shigellosis due to Shigella dysenteriae", "golden_codes": ["A03.0"], "codes": []}
+{"text": "Shigellosis due to Shigella flexneri", "golden_codes": ["A03.1"], "codes": []}
+{"text": "Shigellosis due to Shigella boydii", "golden_codes": ["A03.2"], "codes": []}
+{"text": "Shigellosis due to Shigella sonnei", "golden_codes": ["A03.3"], "codes": []}
+{"text": "Other shigellosis", "golden_codes": ["A03.8"], "codes": []}
+{"text": "Shigellosis, unspecified", "golden_codes": ["A03.9"], "codes": []}
+{"text": "Other bacterial intestinal infections", "golden_codes": ["A04"], "codes": []}
+{"text": "Enteropathogenic Escherichia coli infection", "golden_codes": ["A04.0"], "codes": []}
+{"text": "Enterotoxigenic Escherichia coli infection", "golden_codes": ["A04.1"], "codes": []}
+{"text": "Enteroinvasive Escherichia coli infection", "golden_codes": ["A04.2"], "codes": []}
+{"text": "Enterohemorrhagic Escherichia coli infection", "golden_codes": ["A04.3"], "codes": []}
+{"text": "Other intestinal Escherichia coli infections", "golden_codes": ["A04.4"], "codes": []}
+{"text": "Campylobacter enteritis", "golden_codes": ["A04.5"], "codes": []}
+{"text": "Enteritis due to Yersinia enterocolitica", "golden_codes": ["A04.6"], "codes": []}
+{"text": "Enterocolitis due to Clostridium difficile", "golden_codes": ["A04.7"], "codes": []}
+{"text": "Enterocolitis due to Clostridium difficile, recurrent", "golden_codes": ["A04.71"], "codes": []}
+{"text": "Enterocolitis due to Clostridium difficile, not specified as recurrent", "golden_codes": ["A04.72"], "codes": []}
+{"text": "Other specified bacterial intestinal infections", "golden_codes": ["A04.8"], "codes": []}
+{"text": "Bacterial intestinal infection, unspecified", "golden_codes": ["A04.9"], "codes": []}
+{"text": "Other bacterial foodborne intoxications, not elsewhere classified", "golden_codes": ["A05"], "codes": []}
+{"text": "Foodborne staphylococcal intoxication", "golden_codes": ["A05.0"], "codes": []}
+{"text": "Botulism food poisoning", "golden_codes": ["A05.1"], "codes": []}
+{"text": "Foodborne Clostridium perfringens [Clostridium welchii] intoxication", "golden_codes": ["A05.2"], "codes": []}
+{"text": "Foodborne Vibrio parahaemolyticus intoxication", "golden_codes": ["A05.3"], "codes": []}
+{"text": "Foodborne Bacillus cereus intoxication", "golden_codes": ["A05.4"], "codes": []}
+{"text": "Foodborne Vibrio vulnificus intoxication", "golden_codes": ["A05.5"], "codes": []}
+{"text": "Other specified bacterial foodborne intoxications", "golden_codes": ["A05.8"], "codes": []}
+{"text": "Bacterial foodborne intoxication, unspecified", "golden_codes": ["A05.9"], "codes": []}
+{"text": "Amebiasis", "golden_codes": ["A06"], "codes": []}
+{"text": "Acute amebic dysentery", "golden_codes": ["A06.0"], "codes": []}
+{"text": "Chronic intestinal amebiasis", "golden_codes": ["A06.1"], "codes": []}
+{"text": "Amebic nondysenteric colitis", "golden_codes": ["A06.2"], "codes": []}
+{"text": "Ameboma of intestine", "golden_codes": ["A06.3"], "codes": []}
+{"text": "Amebic liver abscess", "golden_codes": ["A06.4"], "codes": []}
+{"text": "Amebic lung abscess", "golden_codes": ["A06.5"], "codes": []}
+{"text": "Amebic brain abscess", "golden_codes": ["A06.6"], "codes": []}
+{"text": "Cutaneous amebiasis", "golden_codes": ["A06.7"], "codes": []}
+{"text": "Amebic infection of other sites", "golden_codes": ["A06.8"], "codes": []}
+{"text": "Amebic cystitis", "golden_codes": ["A06.81"], "codes": []}
+{"text": "Other amebic genitourinary infections", "golden_codes": ["A06.82"], "codes": []}
+{"text": "Other amebic infections", "golden_codes": ["A06.89"], "codes": []}
+{"text": "Amebiasis, unspecified", "golden_codes": ["A06.9"], "codes": []}
+{"text": "Other protozoal intestinal diseases", "golden_codes": ["A07"], "codes": []}
+{"text": "Balantidiasis", "golden_codes": ["A07.0"], "codes": []}
+{"text": "Giardiasis [lambliasis]", "golden_codes": ["A07.1"], "codes": []}
+{"text": "Cryptosporidiosis", "golden_codes": ["A07.2"], "codes": []}
+{"text": "Isosporiasis", "golden_codes": ["A07.3"], "codes": []}
+{"text": "Cyclosporiasis", "golden_codes": ["A07.4"], "codes": []}
+{"text": "Other specified protozoal intestinal diseases", "golden_codes": ["A07.8"], "codes": []}
+{"text": "Protozoal intestinal disease, unspecified", "golden_codes": ["A07.9"], "codes": []}
+{"text": "Viral and other specified intestinal infections", "golden_codes": ["A08"], "codes": []}
+{"text": "Rotaviral enteritis", "golden_codes": ["A08.0"], "codes": []}
+{"text": "Acute gastroenteropathy due to Norwalk agent and other small round viruses", "golden_codes": ["A08.1"], "codes": []}
+{"text": "Acute gastroenteropathy due to Norwalk agent", "golden_codes": ["A08.11"], "codes": []}
+{"text": "Acute gastroenteropathy due to other small round viruses", "golden_codes": ["A08.19"], "codes": []}
+{"text": "Adenoviral enteritis", "golden_codes": ["A08.2"], "codes": []}
+{"text": "Other viral enteritis", "golden_codes": ["A08.3"], "codes": []}
+{"text": "Calicivirus enteritis", "golden_codes": ["A08.31"], "codes": []}
+{"text": "Astrovirus enteritis", "golden_codes": ["A08.32"], "codes": []}
+{"text": "Other viral enteritis", "golden_codes": ["A08.39"], "codes": []}
+{"text": "Viral intestinal infection, unspecified", "golden_codes": ["A08.4"], "codes": []}
+{"text": "Other specified intestinal infections", "golden_codes": ["A08.8"], "codes": []}
+{"text": "Infectious gastroenteritis and colitis, unspecified", "golden_codes": ["A09"], "codes": []}
+{"text": "Respiratory tuberculosis", "golden_codes": ["A15"], "codes": []}
+{"text": "Tuberculosis of lung", "golden_codes": ["A15.0"], "codes": []}
+{"text": "Tuberculosis of intrathoracic lymph nodes", "golden_codes": ["A15.4"], "codes": []}
+{"text": "Tuberculosis of larynx, trachea and bronchus", "golden_codes": ["A15.5"], "codes": []}
+{"text": "Tuberculous pleurisy", "golden_codes": ["A15.6"], "codes": []}
+{"text": "Primary respiratory tuberculosis", "golden_codes": ["A15.7"], "codes": []}

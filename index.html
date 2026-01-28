@@ -722,7 +722,7 @@
 <body>
     <div class="container">
         <h1>Medical Coding System</h1>
-        <div class="timestamp">Comprehensive Report • Generated: January 26, 2026 at 04:16 PM</div>
+        <div class="timestamp">Comprehensive Report • Generated: January 28, 2026 at 11:50 AM</div>
 
         <div class="executive-summary">
             <strong>Executive Summary:</strong> This comprehensive report documents the medical coding system's
@@ -850,160 +850,675 @@
         <div class="chapter">
             <div class="chapter-title">Chapter 2: Model Performance Comparison</div>
             <h2>Model Performance Comparison</h2>
-            <h3>Performance Metrics</h3>
-            <table class="comparison-table">
+
+        <div class="comparison-section">
+            <div class="comparison-grid">
+                <div class="comparison-header">Metric</div>
+                <div class="comparison-header">Anthropic (Claude)</div>
+                <div class="comparison-header">OpenAI (Codex)</div>
+
+                <div class="comparison-metric">Precision</div>
+                <div class="comparison-value winner">69.7%</div>
+                <div class="comparison-value ">53.1%</div>
+
+                <div class="comparison-metric">Recall</div>
+                <div class="comparison-value winner">78.6%</div>
+                <div class="comparison-value ">67.3%</div>
+
+                <div class="comparison-metric">F1 Score</div>
+                <div class="comparison-value winner">73.9%</div>
+                <div class="comparison-value ">59.4%</div>
+
+                <div class="comparison-metric">True Positives</div>
+                <div class="comparison-value winner">2481</div>
+                <div class="comparison-value ">2192</div>
+
+                <div class="comparison-metric">False Positives</div>
+                <div class="comparison-value winner">1078</div>
+                <div class="comparison-value ">1936</div>
+
+                <div class="comparison-metric">False Negatives</div>
+                <div class="comparison-value winner">676</div>
+                <div class="comparison-value ">1064</div>
+
+            </div>
+        </div>
+
+        <div class="performance-chart">
+            <h3>F1 Score Comparison</h3>
+            <div class="bar-chart">
+
+                <div class="bar-row">
+                    <div class="bar-label">Anthropic (Claude)</div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 73.8832638475283%"></div>
+                    </div>
+                    <div class="bar-value">73.9%</div>
+                </div>
+
+                <div class="bar-row">
+                    <div class="bar-label">OpenAI (Codex)</div>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 59.37161430119178%"></div>
+                    </div>
+                    <div class="bar-value">59.4%</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="insight-box">
+            <div class="insight-title">Key Findings</div>
+            <ul style="margin-left: 20px;">
+                <li>Anthropic (Claude) demonstrates superior overall performance with a 14.5 percentage point lead in F1 score.</li>
+                <li>Both models show strong capability in medical code prediction, with F1 scores above 59%.</li>
+                <li>Error patterns suggest opportunities for ensemble approaches to improve accuracy.</li>
+            </ul>
+        </div>
+
+        <div class="model-section">
+            <div class="model-name">ANTHROPIC (CLAUDE)</div>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-label">Precision</div>
+                    <div class="metric-value">69.7%</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">Recall</div>
+                    <div class="metric-value">78.6%</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">F1 Score</div>
+                    <div class="metric-value">73.9%</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">True Positives</div>
+                    <div class="metric-value">2481</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">False Positives</div>
+                    <div class="metric-value">1078</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">False Negatives</div>
+                    <div class="metric-value">676</div>
+                </div>
+            </div>
+
+            <h3>Most Problematic Codes</h3>
+            <table class="code-table">
                 <thead>
                     <tr>
-                        <th>Model</th>
-                        <th>Processed</th>
-                        <th>Success Rate</th>
-                        <th>Avg Response Time</th>
-                        <th>Avg Tokens (In/Out)</th>
+                        <th>ICD-10 Code</th>
+                        <th>True Positives</th>
+                        <th>False Positives</th>
+                        <th>False Negatives</th>
+                        <th>F1 Score</th>
                     </tr>
                 </thead>
                 <tbody>
-            
+
                     <tr>
-                        <td><strong>Claude</strong></td>
-                        <td>1,053</td>
-                        <td>83.9%</td>
-                        <td>15.4s</td>
-                        <td>21/3</td>
+                        <td><span class="code-badge">A01.0</span></td>
+                        <td>5</td>
+                        <td>8</td>
+                        <td>4</td>
+                        <td>45.5%</td>
                     </tr>
-                
+
                     <tr>
-                        <td><strong>Claude</strong></td>
-                        <td>2,467</td>
-                        <td>67.4%</td>
-                        <td>5.2s</td>
-                        <td>99/2</td>
+                        <td><span class="code-badge">A00.0</span></td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>35.3%</td>
                     </tr>
-                
+
                     <tr>
-                        <td><strong>Codex</strong></td>
-                        <td>1,125</td>
-                        <td>65.7%</td>
-                        <td>6.7s</td>
-                        <td>21/67</td>
+                        <td><span class="code-badge">A01.4</span></td>
+                        <td>3</td>
+                        <td>10</td>
+                        <td>1</td>
+                        <td>35.3%</td>
                     </tr>
-                
+
                     <tr>
-                        <td><strong>Codex</strong></td>
-                        <td>1,641</td>
-                        <td>66.1%</td>
-                        <td>6.1s</td>
-                        <td>86/130</td>
+                        <td><span class="code-badge">A00.1</span></td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>5</td>
+                        <td>44.4%</td>
                     </tr>
-                
+
                     <tr>
-                        <td><strong>Claude</strong></td>
-                        <td>100</td>
-                        <td>39.0%</td>
-                        <td>18.9s</td>
-                        <td>92/316</td>
+                        <td><span class="code-badge">A01.1</span></td>
+                        <td>4</td>
+                        <td>9</td>
+                        <td>1</td>
+                        <td>44.4%</td>
                     </tr>
-                
+
                     <tr>
-                        <td><strong>Codex</strong></td>
-                        <td>100</td>
+                        <td><span class="code-badge">A01.2</span></td>
+                        <td>4</td>
+                        <td>9</td>
+                        <td>1</td>
+                        <td>44.4%</td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="code-badge">A01.3</span></td>
+                        <td>4</td>
+                        <td>9</td>
+                        <td>1</td>
+                        <td>44.4%</td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="code-badge">A01.04</span></td>
+                        <td>4</td>
+                        <td>9</td>
+                        <td>1</td>
+                        <td>44.4%</td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="code-badge">A00.9</span></td>
+                        <td>6</td>
+                        <td>5</td>
+                        <td>3</td>
+                        <td>60.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="code-badge">A01.02</span></td>
+                        <td>6</td>
+                        <td>5</td>
+                        <td>3</td>
+                        <td>60.0%</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <h3>Sample Predictions</h3>
+
+            <div class="prediction-card">
+                <div class="prediction-text">"Cholera"</div>
+                <div style="margin-top: 20px;">
+                    <div class="codes-label">Analysis</div>
+                    <table style="width: 100%; border-collapse: collapse; margin-top: 12px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px;">
+                        <thead>
+                            <tr style="background: #f5f5f5;">
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Code</th>
+                                <th style="padding: 10px; text-align: center; border-bottom: 2px solid #ddd;">Expected</th>
+                                <th style="padding: 10px; text-align: center; border-bottom: 2px solid #ddd;">Predicted</th>
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Description</th>
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Note</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge">A00</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Cholera
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Correctly predicted
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge">A00.0</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Cholera due to Vibrio cholerae 01, biovar cholerae
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Wrong subtype (expected A00)
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge">A00.1</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Cholera due to Vibrio cholerae 01, biovar eltor
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Wrong subtype (expected A00)
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge">A00.9</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Cholera, unspecified
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Wrong subtype (expected A00)
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="prediction-card">
+                <div class="prediction-text">"Cholera due to Vibrio cholerae 01, biovar cholerae"</div>
+                <div style="margin-top: 20px;">
+                    <div class="codes-label">Analysis</div>
+                    <table style="width: 100%; border-collapse: collapse; margin-top: 12px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px;">
+                        <thead>
+                            <tr style="background: #f5f5f5;">
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Code</th>
+                                <th style="padding: 10px; text-align: center; border-bottom: 2px solid #ddd;">Expected</th>
+                                <th style="padding: 10px; text-align: center; border-bottom: 2px solid #ddd;">Predicted</th>
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Description</th>
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Note</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge">A00.0</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Cholera due to Vibrio cholerae 01, biovar cholerae
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Correctly predicted
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="prediction-card">
+                <div class="prediction-text">"Cholera due to Vibrio cholerae 01, biovar eltor"</div>
+                <div style="margin-top: 20px;">
+                    <div class="codes-label">Analysis</div>
+                    <table style="width: 100%; border-collapse: collapse; margin-top: 12px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px;">
+                        <thead>
+                            <tr style="background: #f5f5f5;">
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Code</th>
+                                <th style="padding: 10px; text-align: center; border-bottom: 2px solid #ddd;">Expected</th>
+                                <th style="padding: 10px; text-align: center; border-bottom: 2px solid #ddd;">Predicted</th>
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Description</th>
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Note</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge">A00.1</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Cholera due to Vibrio cholerae 01, biovar eltor
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Correctly predicted
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="model-section">
+            <div class="model-name">OPENAI (CODEX)</div>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-label">Precision</div>
+                    <div class="metric-value">53.1%</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">Recall</div>
+                    <div class="metric-value">67.3%</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">F1 Score</div>
+                    <div class="metric-value">59.4%</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">True Positives</div>
+                    <div class="metric-value">2192</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">False Positives</div>
+                    <div class="metric-value">1936</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">False Negatives</div>
+                    <div class="metric-value">1064</div>
+                </div>
+            </div>
+
+            <h3>Most Problematic Codes</h3>
+            <table class="code-table">
+                <thead>
+                    <tr>
+                        <th>ICD-10 Code</th>
+                        <th>True Positives</th>
+                        <th>False Positives</th>
+                        <th>False Negatives</th>
+                        <th>F1 Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td><span class="code-badge">A01.0</span></td>
+                        <td>7</td>
+                        <td>15</td>
+                        <td>0</td>
+                        <td>48.3%</td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="code-badge">B08.0</span></td>
+                        <td>3</td>
+                        <td>15</td>
+                        <td>0</td>
+                        <td>28.6%</td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="code-badge">A18.8</span></td>
+                        <td>2</td>
+                        <td>12</td>
+                        <td>1</td>
+                        <td>23.5%</td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="code-badge">G63.0</span></td>
+                        <td>0</td>
+                        <td>12</td>
+                        <td>0</td>
                         <td>0.0%</td>
-                        <td>0.0s</td>
-                        <td>231/0</td>
                     </tr>
-                </tbody></table>
-                <h3>Sample Results</h3>
-                <table class="samples-table">
-                    <thead>
-                        <tr>
-                            <th>Original Code</th>
-                            <th>Description</th>
-                            <th>Predicted</th>
-                            <th>Match</th>
-                            <th>Model</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                
-                        <tr>
-                            <td><code class="code-badge">C44.1391</code></td>
-                            <td>Sebaceous cell carcinoma of skin of left upper eye...</td>
-                            <td><code class="code-badge">["C44"]</code></td>
-                            <td><span class="failure">✗</span></td>
-                            <td>Codex</td>
-                        </tr>
-                    
-                        <tr>
-                            <td><code class="code-badge">C44.139</code></td>
-                            <td>Sebaceous cell carcinoma of skin of left eyelid, i...</td>
-                            <td><code class="code-badge">["C44.192"]</code></td>
-                            <td><span class="failure">✗</span></td>
-                            <td>Codex</td>
-                        </tr>
-                    
-                        <tr>
-                            <td><code class="code-badge">C44.1322</code></td>
-                            <td>Sebaceous cell carcinoma of skin of right lower ey...</td>
-                            <td><code class="code-badge">[]</code></td>
-                            <td><span class="failure">✗</span></td>
-                            <td>Codex</td>
-                        </tr>
-                    
-                        <tr>
-                            <td><code class="code-badge">C44.1321</code></td>
-                            <td>Sebaceous cell carcinoma of skin of right upper ey...</td>
-                            <td><code class="code-badge">[]</code></td>
-                            <td><span class="failure">✗</span></td>
-                            <td>Codex</td>
-                        </tr>
-                    
-                        <tr>
-                            <td><code class="code-badge">C84.0</code></td>
-                            <td>Mycosis fungoides</td>
-                            <td><code class="code-badge">["C84.0"]</code></td>
-                            <td><span class="success">✓</span></td>
-                            <td>Claude</td>
-                        </tr>
-                    
-                        <tr>
-                            <td><code class="code-badge">C84</code></td>
-                            <td>Mature T/NK-cell lymphomas</td>
-                            <td><code class="code-badge">["C84.4"]</code></td>
-                            <td><span class="failure">✗</span></td>
-                            <td>Claude</td>
-                        </tr>
-                    
-                        <tr>
-                            <td><code class="code-badge">C83.99</code></td>
-                            <td>Non-follicular (diffuse) lymphoma, unspecified, ex...</td>
-                            <td><code class="code-badge">["C83.90"]</code></td>
-                            <td><span class="failure">✗</span></td>
-                            <td>Claude</td>
-                        </tr>
-                    
-                        <tr>
-                            <td><code class="code-badge">C83.98</code></td>
-                            <td>Non-follicular (diffuse) lymphoma, unspecified, ly...</td>
-                            <td><code class="code-badge">["C83.90"]</code></td>
-                            <td><span class="failure">✗</span></td>
-                            <td>Claude</td>
-                        </tr>
-                    
-                        <tr>
-                            <td><code class="code-badge">C44.132</code></td>
-                            <td>Sebaceous cell carcinoma of skin of right eyelid, ...</td>
-                            <td><code class="code-badge">["C44.119"]</code></td>
-                            <td><span class="failure">✗</span></td>
-                            <td>Codex</td>
-                        </tr>
-                    
-                        <tr>
-                            <td><code class="code-badge">C83.97</code></td>
-                            <td>Non-follicular (diffuse) lymphoma, unspecified, sp...</td>
-                            <td><code class="code-badge">["C83.90"]</code></td>
-                            <td><span class="failure">✗</span></td>
-                            <td>Claude</td>
-                        </tr>
-                    </tbody></table>
+
+                    <tr>
+                        <td><span class="code-badge">B27.1</span></td>
+                        <td>3</td>
+                        <td>12</td>
+                        <td>0</td>
+                        <td>33.3%</td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="code-badge">A50.0</span></td>
+                        <td>1</td>
+                        <td>9</td>
+                        <td>2</td>
+                        <td>15.4%</td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="code-badge">A50.4</span></td>
+                        <td>3</td>
+                        <td>11</td>
+                        <td>0</td>
+                        <td>35.3%</td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="code-badge">B27.0</span></td>
+                        <td>3</td>
+                        <td>11</td>
+                        <td>0</td>
+                        <td>35.3%</td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="code-badge">A50.3</span></td>
+                        <td>0</td>
+                        <td>7</td>
+                        <td>3</td>
+                        <td>0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="code-badge">A01.1</span></td>
+                        <td>6</td>
+                        <td>9</td>
+                        <td>0</td>
+                        <td>57.1%</td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <h3>Sample Predictions</h3>
+
+            <div class="prediction-card">
+                <div class="prediction-text">"Cholera"</div>
+                <div style="margin-top: 20px;">
+                    <div class="codes-label">Analysis</div>
+                    <table style="width: 100%; border-collapse: collapse; margin-top: 12px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px;">
+                        <thead>
+                            <tr style="background: #f5f5f5;">
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Code</th>
+                                <th style="padding: 10px; text-align: center; border-bottom: 2px solid #ddd;">Expected</th>
+                                <th style="padding: 10px; text-align: center; border-bottom: 2px solid #ddd;">Predicted</th>
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Description</th>
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Note</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge">A00</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Cholera
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Correctly predicted
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge">A00.0</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Cholera due to Vibrio cholerae 01, biovar cholerae
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Wrong subtype (expected A00)
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge">A00.1</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Cholera due to Vibrio cholerae 01, biovar eltor
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Wrong subtype (expected A00)
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge">A00.9</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Cholera, unspecified
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Wrong subtype (expected A00)
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="prediction-card">
+                <div class="prediction-text">"Cholera due to Vibrio cholerae 01, biovar cholerae"</div>
+                <div style="margin-top: 20px;">
+                    <div class="codes-label">Analysis</div>
+                    <table style="width: 100%; border-collapse: collapse; margin-top: 12px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px;">
+                        <thead>
+                            <tr style="background: #f5f5f5;">
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Code</th>
+                                <th style="padding: 10px; text-align: center; border-bottom: 2px solid #ddd;">Expected</th>
+                                <th style="padding: 10px; text-align: center; border-bottom: 2px solid #ddd;">Predicted</th>
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Description</th>
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Note</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge">A00.0</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Cholera due to Vibrio cholerae 01, biovar cholerae
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Correctly predicted
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="prediction-card">
+                <div class="prediction-text">"Cholera due to Vibrio cholerae 01, biovar eltor"</div>
+                <div style="margin-top: 20px;">
+                    <div class="codes-label">Analysis</div>
+                    <table style="width: 100%; border-collapse: collapse; margin-top: 12px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px;">
+                        <thead>
+                            <tr style="background: #f5f5f5;">
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Code</th>
+                                <th style="padding: 10px; text-align: center; border-bottom: 2px solid #ddd;">Expected</th>
+                                <th style="padding: 10px; text-align: center; border-bottom: 2px solid #ddd;">Predicted</th>
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Description</th>
+                                <th style="padding: 10px; text-align: left; border-bottom: 2px solid #ddd;">Note</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge">A00.1</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; text-align: center; border-bottom: 1px solid #eee;">
+                                    <span class="code-badge" style="background: #fff; border: 1px solid #000;">✓</span>
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Cholera due to Vibrio cholerae 01, biovar eltor
+                                </td>
+                                <td style="padding: 8px; border-bottom: 1px solid #eee; font-size: 12px; color: #666;">
+                                    Correctly predicted
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+    
         </div>
 
         <!-- Chapter 2.1: Constrained Prompting Analysis -->
@@ -4048,7 +4563,7 @@ function initTensorVisualization(canvasId, data) {
     <!-- Footer -->
     <div style="margin-top: 60px; padding-top: 30px; border-top: 1px solid #ddd;">
         <p style="text-align: center; color: #666; font-size: 12px;">
-            Generated by Medical Coding System v1.0 • January 26, 2026 at 04:16 PM
+            Generated by Medical Coding System v1.0 • January 28, 2026 at 11:50 AM
         </p>
     </div>
 </div>
