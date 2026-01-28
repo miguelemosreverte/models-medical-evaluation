@@ -2,22 +2,32 @@
 
 Comprehensive experiments exploring AI model performance on medical coding tasks using ICD-10 codes.
 
-## 🚀 Quick Start
+**Live Report:** https://miguelemosreverte.github.io/models-medical-evaluation/
 
-### For New Users (No Data Yet)
+## Reproduce the Report
 
-Simply run:
+This repository includes all data needed to reproduce the report. No API keys required.
 
 ```bash
+git clone https://github.com/miguelemosreverte/models-medical-evaluation
+cd models-medical-evaluation
 python3 generate_book_report.py
+open book_report.html
 ```
 
-This will:
-1. Check if dataset generation is running
-2. If no data exists, automatically start background dataset generation
-3. Wait 60 seconds for initial data
-4. Generate the report (showing progress even with partial data)
-5. Continue generating data in the background
+**Included data files:**
+- `medical_coding.db` - SQLite database with experiment results (14 MB)
+- `medical_coding_dataset.*.jsonl` - Model prediction datasets for Claude and Codex
+
+The generated report will be identical to the live version (except for timestamps and minor row ordering differences due to SQL query ordering).
+
+## Running New Experiments
+
+To generate new data from scratch (requires API keys for Claude/OpenAI):
+
+```bash
+python3 dataset_generation.py
+```
 
 ### Monitor Progress
 
